@@ -1,0 +1,293 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "LevelScene",
+    "sceneWidth": 600,
+    "sceneHeight": 800,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "stepWidth": 50,
+    "stepHeight": 30,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_before": "this.beforeCreate();",
+    "create_after": "this.afterCreate();",
+    "state_constructor_after": "this.resetGameCounters();\n"
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "pageAlignVertically": true,
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "physicsSystem": "ARCADE",
+    "autoLoad": false,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "8a0fc0bc-e3be-4656-9585-f855ac8ba0bb",
+    "info": {
+      "editorName": "Level",
+      "setAll": [],
+      "children": [
+        {
+          "type": "prefab",
+          "prefab": "0",
+          "id": "59d6e4a0-ff00-4f01-9bde-bdc9706d036d",
+          "info": {
+            "editorName": "group",
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "type": "group",
+          "id": "626e1adb-dc16-44ac-b9a2-973458ce46c9",
+          "info": {
+            "editorName": "tubes",
+            "editorPublic": true,
+            "physicsGroup": true,
+            "setAll": [{
+              "key": "body.immovable",
+              "value": "true"
+            }],
+            "children": [
+              {
+                "type": "tileSprite",
+                "id": "7cab65c7-d786-43e7-9113-c6037cf16c2c",
+                "asset": "0",
+                "info": {
+                  "editorName": "tube_h",
+                  "x": 50,
+                  "y": 30,
+                  "width": 500,
+                  "height": 30
+                }
+              },
+              {
+                "type": "tileSprite",
+                "id": "0d8cf172-0191-45e8-a7d9-c5ee495ca5eb",
+                "asset": "1",
+                "info": {
+                  "editorName": "tube_v",
+                  "x": 550,
+                  "y": 60,
+                  "width": 25,
+                  "height": 740
+                }
+              },
+              {
+                "type": "tileSprite",
+                "id": "0fea9391-a570-4050-afa8-b378837f5523",
+                "asset": "1",
+                "info": {
+                  "editorName": "tube_v1",
+                  "x": 25,
+                  "y": 60,
+                  "width": 25,
+                  "height": 740
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "id": "c8d4bbf6-8a0e-47e2-b13e-59461cddff17",
+          "info": {
+            "editorName": "objects",
+            "editorPublic": true,
+            "setAll": [],
+            "children": []
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "1",
+          "id": "4e37f856-adc5-42d4-b3c9-ff5966c35f98",
+          "asset-ref": {
+            "file": "WebContent/assets/pack.json",
+            "section": "preload",
+            "asset": "textures",
+            "sprite": "ball"
+          },
+          "info": {
+            "editorName": "ball",
+            "editorPublic": true,
+            "x": 286,
+            "y": 683
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "2",
+          "id": "5fbb08d6-88fb-43e4-9c1d-8d4eeb2ccb6d",
+          "asset-ref": {
+            "file": "WebContent/assets/pack.json",
+            "section": "preload",
+            "asset": "textures",
+            "sprite": "bar"
+          },
+          "info": {
+            "editorName": "paddle",
+            "editorPublic": true,
+            "x": 262.5,
+            "y": 723
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "7355a780-12dd-4c96-a76f-a63d4b762dd9",
+          "asset": "2",
+          "info": {
+            "editorName": "ball1",
+            "x": 539,
+            "y": 7,
+            "scale.x": 0.5,
+            "scale.y": 0.5
+          }
+        },
+        {
+          "type": "text",
+          "id": "75517e19-f774-4375-9de1-d0ac69286a40",
+          "info": {
+            "editorName": "ballText",
+            "editorPublic": true,
+            "x": 557,
+            "text": "0",
+            "style.fontSize": 30,
+            "style.fill": "#ffffff"
+          }
+        },
+        {
+          "type": "text",
+          "id": "9f255b7f-144b-4521-bd32-dab77a00d501",
+          "info": {
+            "editorName": "levelText",
+            "editorPublic": true,
+            "x": 506,
+            "text": "0",
+            "style.fontSize": 30,
+            "style.fill": "#ffffff"
+          }
+        },
+        {
+          "type": "group",
+          "id": "a75d8b61-8f3b-4d68-9468-3191609f164f",
+          "info": {
+            "editorName": "tableIcon",
+            "x": 472,
+            "y": 6,
+            "scale.x": 0.3,
+            "scale.y": 0.3,
+            "editorClosed": true,
+            "setAll": [],
+            "children": [
+              {
+                "type": "atlas-sprite",
+                "id": "24708d13-e43a-4f5e-ae99-9197a0583948",
+                "asset": "3",
+                "info": {"editorName": "brick_red"}
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "f5a1afaa-a189-4c3f-a00a-c29de6fd7794",
+                "asset": "4",
+                "info": {
+                  "editorName": "brick_green",
+                  "x": 50
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "55d6efdd-05ae-4d26-a8a5-eee2e1c74994",
+                "asset": "5",
+                "info": {
+                  "editorName": "brick_blue",
+                  "x": 50,
+                  "y": 30
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "baecb7e0-ef09-4be8-877e-b302a876f0f6",
+                "asset": "6",
+                "info": {
+                  "editorName": "brick_gray",
+                  "y": 30
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "textures",
+      "sprite": "tube-h"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "textures",
+      "sprite": "tube-v"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "textures",
+      "sprite": "ball"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "textures",
+      "sprite": "brick-red"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "textures",
+      "sprite": "brick-green"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "textures",
+      "sprite": "brick-blue"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "textures",
+      "sprite": "brick-gray"
+    }
+  },
+  "prefab-table": {
+    "0": "WebContent/assets/canvas/prefabs/Background.canvas",
+    "1": "WebContent/assets/canvas/prefabs/Ball.canvas",
+    "2": "WebContent/assets/canvas/prefabs/Paddle.canvas"
+  }
+}

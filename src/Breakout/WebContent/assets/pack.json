@@ -1,0 +1,122 @@
+{
+  "preload": [
+    {
+      "type": "image",
+      "key": "BG",
+      "url": "assets/images/bg_snow.png",
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
+      "key": "textures",
+      "textureURL": "assets/atlas/textures.png",
+      "atlasURL": "assets/atlas/textures.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "script",
+      "key": "LevelScene",
+      "url": "assets/canvas/LevelScene.js"
+    },
+    {
+      "type": "script",
+      "key": "Background",
+      "url": "assets/canvas/prefabs/Background.js"
+    },
+    {
+      "type": "script",
+      "key": "Ball",
+      "url": "assets/canvas/prefabs/Ball.js"
+    },
+    {
+      "type": "script",
+      "key": "Paddle",
+      "url": "assets/canvas/prefabs/Paddle.js"
+    },
+    {
+      "type": "script",
+      "key": "BaseBrick",
+      "url": "assets/canvas/prefabs/BaseBrick.js"
+    },
+    {
+      "type": "script",
+      "key": "BaseObject",
+      "url": "assets/canvas/prefabs/BaseObject.js"
+    },
+    {
+      "type": "script",
+      "key": "BonusObject",
+      "url": "assets/canvas/prefabs/BonusObject.js"
+    },
+    {
+      "type": "script",
+      "key": "BrickBlue",
+      "url": "assets/canvas/prefabs/BrickBlue.js"
+    },
+    {
+      "type": "script",
+      "key": "BrickGray",
+      "url": "assets/canvas/prefabs/BrickGray.js"
+    },
+    {
+      "type": "script",
+      "key": "BrickGreen",
+      "url": "assets/canvas/prefabs/BrickGreen.js"
+    },
+    {
+      "type": "script",
+      "key": "BrickRed",
+      "url": "assets/canvas/prefabs/BrickRed.js"
+    },
+    {
+      "type": "script",
+      "key": "GunBonus",
+      "url": "assets/canvas/prefabs/GunBonus.js"
+    },
+    {
+      "type": "script",
+      "key": "Snow",
+      "url": "assets/canvas/prefabs/Snow.js"
+    },
+    {
+      "type": "script",
+      "key": "Level1",
+      "url": "assets/canvas/levels/Level1.js"
+    },
+    {
+      "type": "script",
+      "key": "Level2",
+      "url": "assets/canvas/levels/Level2.js"
+    },
+    {
+      "type": "script",
+      "key": "Level3",
+      "url": "assets/canvas/levels/Level3.js"
+    },
+    {
+      "type": "script",
+      "key": "Leaf",
+      "url": "assets/canvas/prefabs/Leaf.js"
+    }
+  ],
+  "boot": [
+    {
+      "type": "image",
+      "key": "logo",
+      "url": "assets/images/logo.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "Preload",
+      "url": "assets/canvas/Preloader.js"
+    }
+  ],
+  "meta": {
+    "generated": "1515182572885",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}

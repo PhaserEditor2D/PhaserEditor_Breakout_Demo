@@ -1,0 +1,968 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Level2",
+    "sceneWidth": 500,
+    "sceneHeight": 800,
+    "generateOnSave": true,
+    "enableStepping": true,
+    "stepWidth": 50,
+    "stepHeight": 30,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "0b144821-6199-40a0-837f-a8e19e968a26",
+    "info": {
+      "editorName": "Table2",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "56501c6b-fe53-46b5-862d-6422035d9a3e",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "ea73e5e2-afb1-43f0-95e4-876381977d29",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green",
+                "prefabOverride": [
+                  "position",
+                  "data"
+                ],
+                "x": 0,
+                "y": 420,
+                "data": "{\r\n\tobject: BonusObject\r\n}"
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "51cd977d-c15b-477d-8fca-2522c20216e1",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green1",
+                "prefabOverride": [
+                  "position",
+                  "data"
+                ],
+                "x": 50,
+                "y": 420
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "ae6528bd-76be-49e8-866c-b457bbe1a8f4",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green2",
+                "prefabOverride": [
+                  "position",
+                  "data"
+                ],
+                "x": 100,
+                "y": 420,
+                "data": "{\r\n\tobject: GunBonus\r\n}"
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "8135ce58-6d77-4dad-b703-7b14eb722510",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green3",
+                "x": 150,
+                "y": 420
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "d89aa75d-51e3-4bcd-97ad-0b945e4d317e",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green4",
+                "x": 200,
+                "y": 420
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "8ab6cb78-b1ef-46b1-8a60-30ecc8bf0f72",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green6",
+                "x": 300,
+                "y": 420
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "90fd7ebb-fd77-4e73-9785-edf4c32875cd",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green7",
+                "x": 350,
+                "y": 420
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "64e137c2-0777-4a02-a841-66cc5326b4a5",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green8",
+                "x": 400,
+                "y": 420
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "7507f974-c71c-490c-bc6a-433591b3b7ea",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red",
+                "x": 200,
+                "y": 90
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "0d8ac811-b0ad-468f-9853-49645f90145f",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red1",
+                "x": 150,
+                "y": 60
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "f10ef52d-cb82-465f-90e1-cbef56804dec",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red2",
+                "x": 100,
+                "y": 60
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "5454caec-bc2f-4044-9077-9a57a6685fb0",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red3",
+                "x": 50,
+                "y": 90
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "c6e6616a-8ff8-4a1b-b775-fce22d944750",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red4",
+                "x": 50,
+                "y": 120
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "86808dbf-346f-4b8a-99cc-34ac30ef4321",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red5",
+                "x": 50,
+                "y": 150
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "1dc9d197-c01b-41d8-87ba-266fcdf7c48a",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red6",
+                "x": 100,
+                "y": 180
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "227ddea6-c75b-464b-99f7-59176efaf718",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red7",
+                "x": 150,
+                "y": 210
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "3c06b1b4-f1e9-4dc4-b543-cde10f7e8d7e",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red8",
+                "x": 200,
+                "y": 240
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "144975df-4f79-4a28-92f8-874d9e643605",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red9",
+                "x": 250,
+                "y": 210
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "36cc8375-9b37-4d72-b835-ed189858c4df",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red10",
+                "x": 300,
+                "y": 180
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "a54e9ffd-aed2-404a-b4fe-32a17e40ddf8",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red11",
+                "x": 350,
+                "y": 150
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "46164e44-395a-4101-844d-8c93f0ecdac1",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red12",
+                "x": 350,
+                "y": 120
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "5a4a3fcb-8d45-4d75-8abf-52dc9076b661",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red13",
+                "x": 350,
+                "y": 90
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "2e14bec6-1a36-43aa-965a-6e16f8007309",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red14",
+                "x": 300,
+                "y": 60
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "fde8dd23-dbc3-4a1c-b9e0-143c19f57de1",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-red"
+              },
+              "info": {
+                "editorName": "brick_red15",
+                "x": 250,
+                "y": 60
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "1530aab8-b11c-4d78-a3b3-49fd97d58db5",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green10",
+                "x": 100,
+                "y": 90
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "585bb9f5-6e10-4247-b6dd-ca89ea9b7181",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green11",
+                "x": 150,
+                "y": 90
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "e54c80b8-d497-444c-9458-251dc6a284fa",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green12",
+                "x": 150,
+                "y": 120
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "104e7f01-467c-49e1-9238-778d37794ff0",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green13",
+                "x": 100,
+                "y": 120
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "0954a9d2-724a-4268-9776-88db8ae0c64f",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green14",
+                "x": 100,
+                "y": 150
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "d3037a35-4e4d-49f0-9e8e-b710bf460dcf",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green15",
+                "x": 150,
+                "y": 180
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "a377ea54-a89c-4d12-96a4-deba22a23ffa",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green16",
+                "x": 150,
+                "y": 150
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "52edcfa3-cee7-4563-8d48-395a43fee1fd",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green17",
+                "x": 200,
+                "y": 180
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "4d4df1bd-896a-4fa9-a08d-1cfca08fbc5c",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green18",
+                "x": 200,
+                "y": 210
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "67e24689-f6a7-4744-8006-2641f612e562",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green19",
+                "x": 250,
+                "y": 180
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "0968b972-be64-4ac6-ac34-72a822878be3",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green20",
+                "x": 300,
+                "y": 150
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "cb6bd212-c74f-4d1a-a56c-b72de2b19d4c",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green21",
+                "x": 300,
+                "y": 120
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "4f45fd32-7817-4146-aacf-9f06c2487b48",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green22",
+                "x": 300,
+                "y": 90
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "97f8a38c-3f6e-444d-8398-ee01522331ad",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green23",
+                "x": 250,
+                "y": 90
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "f560d0c1-3a0d-4ff3-b52b-cda961923b22",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green24",
+                "x": 250,
+                "y": 120
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "c492b05e-aca7-4913-8fb6-5f8ab31cba8b",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green25",
+                "x": 250,
+                "y": 150
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "08818f3c-a649-43ee-8cf8-2c495bf57639",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green26",
+                "x": 200,
+                "y": 120
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "2",
+              "id": "13617c20-c8d1-42c0-92b1-c681eccd71b1",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-gray"
+              },
+              "info": {
+                "editorName": "brick_gray",
+                "x": 200,
+                "y": 150
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "3",
+              "id": "5acc6878-8a7c-4b5b-9c2b-bf67351c9e13",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-blue"
+              },
+              "info": {
+                "editorName": "brick_blue",
+                "x": 400,
+                "y": 300
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "3",
+              "id": "38f2f6d4-df44-4e9c-8d6a-e5fcbc4fc0cc",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-blue"
+              },
+              "info": {
+                "editorName": "brick_blue1",
+                "x": 350,
+                "y": 330
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "3",
+              "id": "3aa3423a-ec91-41eb-bed7-5f5a2ea41937",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-blue"
+              },
+              "info": {
+                "editorName": "brick_blue2",
+                "x": 400,
+                "y": 360
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "3",
+              "id": "379c4d2d-0212-44bb-8159-0a7dd9fa7c02",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-blue"
+              },
+              "info": {
+                "editorName": "brick_blue3",
+                "x": 300,
+                "y": 300
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "3",
+              "id": "b5bbb6a9-9d2d-42c8-9496-33fb93bb6859",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-blue"
+              },
+              "info": {
+                "editorName": "brick_blue4",
+                "prefabOverride": [
+                  "position",
+                  "data"
+                ],
+                "x": 300,
+                "y": 360,
+                "data": "{\r\n\tobject: BonusObject\r\n}"
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "e8d319ff-8f1e-43f2-a921-c757a5b8aa40",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green5",
+                "prefabOverride": [
+                  "position",
+                  "data"
+                ],
+                "x": 250,
+                "y": 420,
+                "data": "{\r\n\tobject: BonusObject\r\n}"
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "015692b7-0ce9-4b83-9e1b-0293506b6577",
+              "asset-ref": {
+                "file": "WebContent/assets/pack.json",
+                "section": "preload",
+                "asset": "textures",
+                "sprite": "brick-green"
+              },
+              "info": {
+                "editorName": "brick_green9",
+                "prefabOverride": [
+                  "position",
+                  "data"
+                ],
+                "x": 450,
+                "y": 420,
+                "data": "{\r\n\tobject: BonusObject\r\n}"
+              }
+            },
+            {
+              "type": "group",
+              "id": "7763c5ce-dbe6-435c-b437-e99071d73d81",
+              "info": {
+                "editorName": "objects",
+                "editorGenerate": false,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "prefab",
+                    "prefab": "4",
+                    "id": "02c9c2e1-15eb-4ef6-a2cf-ebe8d43a1045",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preload",
+                      "asset": "textures",
+                      "sprite": "bonus"
+                    },
+                    "info": {
+                      "editorName": "bonus",
+                      "x": 300,
+                      "y": 360
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "4",
+                    "id": "7015fc2a-d67d-4251-a796-79612bad870f",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preload",
+                      "asset": "textures",
+                      "sprite": "bonus"
+                    },
+                    "info": {
+                      "editorName": "bonus1",
+                      "x": 0,
+                      "y": 420
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "4",
+                    "id": "9aa69157-f2fb-44e6-898a-61a979175491",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preload",
+                      "asset": "textures",
+                      "sprite": "bonus"
+                    },
+                    "info": {
+                      "editorName": "bonus2",
+                      "x": 250,
+                      "y": 420
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "5",
+                    "id": "71853747-37d6-481f-8259-1fe845a5c1b1",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preload",
+                      "asset": "textures",
+                      "sprite": "gun"
+                    },
+                    "info": {
+                      "editorName": "ball",
+                      "x": 100,
+                      "y": 420
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "4",
+                    "id": "8cc686b6-d7f4-41a8-977d-4cb3b684f254",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preload",
+                      "asset": "textures",
+                      "sprite": "bonus"
+                    },
+                    "info": {
+                      "editorName": "bonus3",
+                      "x": 450,
+                      "y": 420
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {},
+  "prefab-table": {
+    "0": "WebContent/assets/canvas/prefabs/BrickGreen.canvas",
+    "1": "WebContent/assets/canvas/prefabs/BrickRed.canvas",
+    "2": "WebContent/assets/canvas/prefabs/BrickGray.canvas",
+    "3": "WebContent/assets/canvas/prefabs/BrickBlue.canvas",
+    "4": "WebContent/assets/canvas/prefabs/BonusObject.canvas",
+    "5": "WebContent/assets/canvas/prefabs/GunBonus.canvas"
+  }
+}

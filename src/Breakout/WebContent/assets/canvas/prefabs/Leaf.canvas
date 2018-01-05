@@ -1,0 +1,57 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Leaf",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Snow",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.afterCreateLeaf();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "ebf22be0-dc17-40d4-91b1-06c0ad6521f7",
+    "info": {
+      "editorName": "Leaf",
+      "setAll": [],
+      "children": [{
+        "type": "atlas-sprite",
+        "id": "edc045e2-c310-431e-a7f7-33364332cd0a",
+        "asset": "0",
+        "info": {"editorName": "leaf"}
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preload",
+    "asset": "textures",
+    "sprite": "leaf"
+  }},
+  "prefab-table": {}
+}

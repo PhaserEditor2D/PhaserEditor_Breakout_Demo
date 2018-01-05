@@ -1,0 +1,64 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Paddle",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.afterCreate();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "e619d782-1cef-43ca-9f5c-fe59d097b684",
+    "info": {
+      "editorName": "Bar",
+      "setAll": [],
+      "children": [{
+        "type": "atlas-sprite",
+        "id": "236a7be1-b236-483b-a827-46dc91f9a7d5",
+        "asset": "0",
+        "info": {
+          "editorName": "bar",
+          "anchor.x": 0.5,
+          "body": {
+            "type": "ARCADE_RECT",
+            "immovable": true
+          }
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preload",
+    "asset": "textures",
+    "sprite": "bar"
+  }},
+  "prefab-table": {}
+}

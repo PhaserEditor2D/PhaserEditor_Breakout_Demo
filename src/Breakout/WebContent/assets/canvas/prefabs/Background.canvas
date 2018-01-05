@@ -1,0 +1,69 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Background",
+    "sceneWidth": 600,
+    "sceneHeight": 800,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "754c878e-22ee-44a7-aeee-7aff96b268b0",
+    "info": {
+      "editorName": "Background",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "8897f8cf-686c-4fdf-acf1-a379ccf089c2",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [{
+            "type": "tileSprite",
+            "id": "e9dc221b-13c6-492b-96a5-23be637630d5",
+            "asset": "0",
+            "info": {
+              "editorName": "BG",
+              "editorPublic": true,
+              "scale.y": 1.1522234995186529,
+              "width": 600,
+              "height": 701.6000366210938
+            }
+          }]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preload",
+    "asset": "BG"
+  }},
+  "prefab-table": {}
+}
